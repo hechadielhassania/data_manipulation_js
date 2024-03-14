@@ -29,3 +29,18 @@ if (age >= 18) {
 } else {
     console.log("Access Denied");
 }
+
+//Output an increasing number of # symbols, from 1 to 7
+
+for (let i = 1; i <= 7; i++) {
+    console.log("#".repeat(i));
+}
+
+//without using the repeat function
+for (let i = 1; i <= 7; i++) {
+    let hash = '';
+    for (let j = 0; j < i; j++) {
+        hash += '#';
+    }
+    console.log(hash);
+}
